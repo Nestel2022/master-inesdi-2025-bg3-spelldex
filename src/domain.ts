@@ -1,0 +1,1 @@
+export type spellClassName = "bard" | "cleric" | "druid" | "sorcerer" | "warlock" | "wizard";

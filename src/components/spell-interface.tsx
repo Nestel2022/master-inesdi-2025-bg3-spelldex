@@ -37,11 +37,9 @@ export function SpellInterface({ initialSelectedClass }: SpellInterfaceProps) {
     }
   };
 
-  const handleSpellSelect = (spell: Spell) => {
-    // Por ahora solo mostramos el nombre del hechizo
-    console.log("Spell selected:", spell.name);
-    // Aquí podrías agregar lógica adicional como mostrar detalles del hechizo
-  };
+  const handleSpellSelect = (spell: Spell) => {    
+    console.log("Spell selected:", spell.name);    
+  };  
 
   const handleEscape = () => {
     setSelectedClass(undefined);
